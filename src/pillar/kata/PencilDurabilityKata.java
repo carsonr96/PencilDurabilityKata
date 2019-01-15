@@ -3,7 +3,7 @@ package pillar.kata;
  *
  * @author Carson
  */
-public class WordSearchKata {
+public class PencilDurabilityKata {
     /**
      * @param args the command line arguments
      */
