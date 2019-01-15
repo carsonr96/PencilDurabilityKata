@@ -1,2 +1,1 @@
-# Pillar-Kata
 # PencilDurabilityKata
