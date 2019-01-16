@@ -7,6 +7,6 @@ public class PencilTest {
     
     public static void main(String[] args) {
         //@test//
-        pencil pencil;
+        Pencil pencil;
     }
 }
