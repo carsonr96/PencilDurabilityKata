@@ -8,5 +8,7 @@ public class PencilTest {
     public static void main(String[] args) {
         //@test//
         Pencil pencil;
+        System.out.println(Pencil.graphiteDurability);
+        
     }
 }

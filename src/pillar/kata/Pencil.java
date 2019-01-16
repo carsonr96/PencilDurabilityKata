@@ -15,7 +15,7 @@ public class Pencil {
     public int CAPITAL_LETTER_DEGREDATION = 2;
     
     private int lengthOfPencil;
-    private int graphiteDurability;
+    static int graphiteDurability;
     private int initialGraphiteDurability;
     
     Pencil() {
