@@ -1,5 +1,7 @@
 package pillar.kata;
 
+import java.util.Scanner;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -11,12 +13,16 @@ package pillar.kata;
  * @author Carson
  */
 public class Pencil {
+
     public int SMALL_LETTER_DEGREDATION = 1;
     public int CAPITAL_LETTER_DEGREDATION = 2;
     
     static int lengthOfPencil;
     static int graphiteDurability;
     static int initialGraphiteDurability;
+    
+    static String desiredText;
+    static String newString;
     
     Pencil() {
         lengthOfPencil = 80;
@@ -33,11 +39,12 @@ public class Pencil {
         }
     }
     static public void testString(String desiredText, int graphiteDurability) {
-        desiredText = "Hippo  potamus";
+        Scanner sc = new Scanner(System.in);
         int remainingDurability = graphiteDurability;
+        
         for (int i = 0; i < desiredText.length(); i++) {
             String newString = desiredText.replaceAll("\\s", "");
-            System.out.println(newString);
+            desiredText = newString;
         }
                     
     }
