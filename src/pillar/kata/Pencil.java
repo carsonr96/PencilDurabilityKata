@@ -35,4 +35,13 @@ public class Pencil {
             lengthOfPencil--;
         }
     }
+    static public void testString(String desiredText, int graphiteDurability) {
+        int remainingDurability = graphiteDurability;
+        
+        for (int i = 0; i < desiredText.length(); i++) {
+            desiredText = newString;
+            
+        }
+        
+    }
 }

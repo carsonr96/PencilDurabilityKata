@@ -15,6 +15,10 @@ public class PencilTest {
         System.out.println("Current length of the pencil " + Pencil.lengthOfPencil);
         
         //@test//
+        Eraser eraser = new Eraser();
+        System.out.println("Current durability of the eraser " + Eraser.eraserDurability);
+        
+        //@test//
         Scanner sc = new Scanner(System.in);
         System.out.println("Please input the text to write down:");
         String desiredText = sc.nextLine();
@@ -22,7 +26,6 @@ public class PencilTest {
         System.out.println(desiredText);
         
         //@test//
-        Eraser eraser = new Eraser();
-        System.out.println("Current durability of the eraser " + Eraser.eraserDurability);
+        
     }
 }
