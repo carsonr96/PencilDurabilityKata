@@ -14,9 +14,9 @@ public class Pencil {
     public int SMALL_LETTER_DEGREDATION = 1;
     public int CAPITAL_LETTER_DEGREDATION = 2;
     
-    private int lengthOfPencil;
+    static int lengthOfPencil;
     static int graphiteDurability;
-    private int initialGraphiteDurability;
+    static int initialGraphiteDurability;
     
     Pencil() {
         lengthOfPencil = 80;
@@ -25,5 +25,20 @@ public class Pencil {
         this.lengthOfPencil = lengthOfPencil;
         initialGraphiteDurability = graphiteDurability;
         this.graphiteDurability = graphiteDurability;
+    }
+    static void sharpen() {
+        if (lengthOfPencil > 0) {
+            graphiteDurability = initialGraphiteDurability;
+            lengthOfPencil--;
+        }
+    }
+    static public void testString(String desiredText, int graphiteDurability) {
+        desiredText = "Hippo  potamus";
+        int remainingDurability = graphiteDurability;
+        for (int i = 0; i < desiredText.length(); i++) {
+            String newString = desiredText.replaceAll("\\s", "");
+            System.out.println(newString);
+        }
+                    
     }
 }

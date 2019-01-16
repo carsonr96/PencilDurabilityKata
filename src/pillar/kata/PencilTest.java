@@ -9,6 +9,7 @@ public class PencilTest {
         //@test//
         Pencil pencil = new Pencil();
         System.out.println(Pencil.graphiteDurability);
-        
+        System.out.println(Pencil.lengthOfPencil);
+        System.out.println(Pencil.newString);
     }
 }
