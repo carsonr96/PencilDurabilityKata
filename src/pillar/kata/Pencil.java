@@ -1,7 +1,4 @@
 package pillar.kata;
-
-import java.util.Scanner;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -37,15 +34,5 @@ public class Pencil {
             graphiteDurability = initialGraphiteDurability;
             lengthOfPencil--;
         }
-    }
-    static public void testString(String desiredText, int graphiteDurability) {
-        Scanner sc = new Scanner(System.in);
-        int remainingDurability = graphiteDurability;
-        
-        for (int i = 0; i < desiredText.length(); i++) {
-            String newString = desiredText.replaceAll("\\s", "");
-            desiredText = newString;
-        }
-                    
     }
 }
