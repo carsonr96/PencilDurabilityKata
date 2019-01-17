@@ -25,12 +25,18 @@ public class PencilTest {
         String desiredText = sc.nextLine();
         desiredText = desiredText.replaceAll("\\s", "");
         System.out.println(desiredText);
+        sc.close();
         
         //@test//
         String writtenText = desiredText;
         int graphiteDegredation;
         graphiteDegredation = writtenText.length();
         int remainingGraphite = Pencil.graphiteDurability - graphiteDegredation;
-        System.out.println(remainingGraphite);
+        System.out.println("Durability remaining " + remainingGraphite);
+        
+        //@test//
+        Pencil.sharpen();
+        System.out.println("Pencil has been sharpened to " + graphiteDurability);
+        System.out.println("Length of the pencil has decreased to " + lengthOfPencil);
     }
 }
