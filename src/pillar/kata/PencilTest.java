@@ -36,7 +36,7 @@ public class PencilTest {
         
         //@test//
         Pencil.sharpen();
-        System.out.println("Pencil has been sharpened to " + graphiteDurability);
-        System.out.println("Length of the pencil has decreased to " + lengthOfPencil);
+        System.out.println("Pencil has been sharpened to " + Pencil.graphiteDurability);
+        System.out.println("Length of the pencil has decreased to " + Pencil.lengthOfPencil);
     }
 }
