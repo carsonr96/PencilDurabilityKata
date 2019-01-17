@@ -44,4 +44,5 @@ public class Pencil {
         }
         
     }
+    char COLLISION_CHAR = '@';
 }
