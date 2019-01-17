@@ -21,9 +21,7 @@ public class Pencil {
     static String desiredText;
     static String newString;
     
-    Pencil() {
-        lengthOfPencil = 80;
-        graphiteDurability = 80;
+    Pencil(int graphiteDurability, int lengthOfPencil) {
         
         this.lengthOfPencil = lengthOfPencil;
         initialGraphiteDurability = graphiteDurability;
@@ -35,14 +33,5 @@ public class Pencil {
             lengthOfPencil--;
         }
     }
-    static public void testString(String desiredText, int graphiteDurability) {
-        int remainingDurability = graphiteDurability;
-        
-        for (int i = 0; i < desiredText.length(); i++) {
-            desiredText = newString;
-            
-        }
-        
-    }
-    char COLLISION_CHAR = '@';
+    char COLLISION_CHAR = '@'; 
 }

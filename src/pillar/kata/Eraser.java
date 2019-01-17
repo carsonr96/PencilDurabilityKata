@@ -6,7 +6,7 @@ package pillar.kata;
 public class Eraser {
     static int eraserDurability;
 
-    Eraser() {
+    Eraser(int eraserDurability) {
         eraserDurability = 80;
     }
     void erase() {
