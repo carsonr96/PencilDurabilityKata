@@ -8,4 +8,5 @@ I am unable to figure out how to cut it off after it surpasses the durability nu
 However, it does count down and increment through the steps with sharpening and shortening the length. 
 
 I used Netbeans to develop it as that is what I have used the most. 
+
 I'm looking forward to hearing back from you.
