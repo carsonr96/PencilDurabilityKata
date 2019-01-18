@@ -31,9 +31,13 @@ public class Pencil {
         this.graphiteDurability = graphiteDurability;
     }
     static void sharpen() {
-        if (lengthOfPencil > 0) {
+        if (lengthOfPencil > 1) {
             graphiteDurability = initialGraphiteDurability;
             lengthOfPencil--;
+            System.out.println("Pencil has been sharpened to " + Pencil.graphiteDurability);
+            System.out.println("Length of the pencil has decreased to " + Pencil.lengthOfPencil);
+        } else {
+            System.out.println("Can no longer sharpen this pencil.");
         }
     }
     static void write() {

@@ -54,13 +54,11 @@ public class PencilTest {
         
         //@test pencil sharpen//
         Pencil.sharpen();
-        System.out.println("Pencil has been sharpened to " + Pencil.graphiteDurability);
-        System.out.println("Length of the pencil has decreased to " + Pencil.lengthOfPencil);
         
-        //@test store text//
+        //@test supposed to be inserting text at a specified index//
         
         
-        //@test erase//
+        //@test supposed to be erasing text from a given interval//
         
     }
 }
