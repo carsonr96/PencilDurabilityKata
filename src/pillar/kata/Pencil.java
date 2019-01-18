@@ -10,9 +10,6 @@ package pillar.kata;
  * @author Carson
  */
 public class Pencil {
-
-    public int SMALL_LETTER_DEGREDATION = 1;
-    public int CAPITAL_LETTER_DEGREDATION = 2;
     
     static int lengthOfPencil;
     static int graphiteDurability;
@@ -20,6 +17,9 @@ public class Pencil {
     
     static String desiredText;
     static String newString;
+    
+    static char currentCharacter;
+    
     
     Pencil(int graphiteDurability, int lengthOfPencil) {
         
@@ -33,5 +33,4 @@ public class Pencil {
             lengthOfPencil--;
         }
     }
-    char COLLISION_CHAR = '@'; 
 }

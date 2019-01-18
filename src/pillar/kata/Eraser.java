@@ -7,8 +7,8 @@ public class Eraser {
     static int eraserDurability;
 
     Eraser(int eraserDurability) {
-        eraserDurability = 80;
     }
+    
     void erase() {
         if (eraserDurability > 0) {
             eraserDurability--;
