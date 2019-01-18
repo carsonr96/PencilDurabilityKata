@@ -1,6 +1,4 @@
 package pillar.kata;
-
-import static pillar.kata.Pencil.lengthOfPencil;
 /**
  *
  * @author Carson
@@ -17,12 +15,14 @@ public class Durability {
     static int degredationValue;
     
     public Durability() {
-        int graphiteDurability = 80;
-        int lengthoOfPencil = 80;
-        int eraserDurability = 80;
+        int graphiteDurability = 0;
+        int lengthOfPencil = 0;
+        int eraserDurability = 0;
         
         pencil = new Pencil(graphiteDurability, lengthOfPencil);
         eraser = new Eraser(eraserDurability);
         writtenText = "";
-            }
-        }
+        int graphiteDegredation;
+    }
+
+}

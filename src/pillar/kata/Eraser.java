@@ -7,6 +7,7 @@ public class Eraser {
     static int eraserDurability;
 
     Eraser(int eraserDurability) {
+        this.eraserDurability = eraserDurability;
     }
     
     void erase() {
