@@ -4,3 +4,4 @@ In order to run all of this, you must import it into any Java IDE and run the fi
 All of the tests are located in the PencilTest.java file and will run once you enter the string. 
 
 I used Netbeans to develop it as that is what I have used the most. 
+I'm looking forward to hearing back from you.
