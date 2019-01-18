@@ -29,7 +29,6 @@ public class PencilTest {
         String desiredText = sc.nextLine();
         desiredText = desiredText.replaceAll("\\s", "");
         System.out.println(desiredText);
-        String writtenText = "";
         sc.close();
         
         //@test//
@@ -47,9 +46,10 @@ public class PencilTest {
         System.out.println("Durability remaining " + remainingGraphite);
         
         //@test//
-        if (remainingGraphite <= 0) {
-            String substring = writtenText.substring(0, remainingGraphite);
-            System.out.println(substring);
+        String writtenText = "";
+        remainingGraphite = Pencil.graphiteDurability;
+        for (int i = 0; i < writtenText.length(); i++) {
+            
         }
         
         
